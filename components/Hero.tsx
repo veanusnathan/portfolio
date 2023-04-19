@@ -10,7 +10,7 @@ export default function Hero({}: Props) {
 	const [text, count] = useTypewriter({
 		words: [
 			"Hi, i'm Veanus Nathan",
-			"loves-indomie-to-the-bone.tsx",
+			"loves-indomie-to-the-bone.jsx",
 			"<JustBecauseICantEatCode />",
 		],
 		loop: true,
@@ -22,7 +22,7 @@ export default function Hero({}: Props) {
 			{/* replace to image component */}
 			<Image
 				className="relative rounded-full mx-auto"
-				src="/1588630297635 Cropped.jpg"
+				src="/P1119997.jpg"
 				alt="pp"
 				width="168"
 				height="168"

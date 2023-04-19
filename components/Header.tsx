@@ -34,7 +34,11 @@ export default function Header({}: Props) {
 					fgColor="gray"
 					bgColor="transparent"
 				/>
-				<SocialIcon url="https://github.com/veanusnathan" fgColor="gray" bgColor="transparent" />
+				<SocialIcon
+					url="https://github.com/veanusnathan"
+					fgColor="gray"
+					bgColor="transparent"
+				/>
 				<SocialIcon
 					url="https://open.spotify.com/user/hd5nwvge9a9c8c66dycqhmdwz?si=463b056b02794efb&nd=1"
 					fgColor="gray"
@@ -69,7 +73,9 @@ export default function Header({}: Props) {
 					fgColor="gray"
 					bgColor="transparent"
 				/>
-				<p className="uppercase hidden md:inline-flex text-sm text-gray-400">get in touch</p>
+				<p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+					get in touch
+				</p>
 			</motion.div>
 		</header>
 	);
