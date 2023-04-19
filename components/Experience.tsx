@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ExperienceCard from "./ExperienceCard";
+import ExperienceCard from "./Experience/ExperienceCardPwd";
+import ExperienceCardERA from "./Experience/ExperienceCardERA";
+import ExperienceCardPwd from "./Experience/ExperienceCardPwd";
 
 type Props = {};
 
@@ -19,16 +21,14 @@ export default function Experience({}: Props) {
 				}}
 				className="h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center"
 			>
-				<h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+				<h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
 					Experience
 				</h3>
-				<div className="w-full flex space-x-3 overflow-x-auto p-10 snap-x snap-mandatory">
-					<ExperienceCard />
-					<ExperienceCard />
-					<ExperienceCard />
+				<div className=" w-full flex space-x-3 overflow-x-auto p-10 snap-x snap-mandatory">
+					<ExperienceCardERA />
+					<ExperienceCardPwd />
 				</div>
 			</motion.div>
-			;
 		</>
 	);
 }
