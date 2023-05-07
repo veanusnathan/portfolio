@@ -26,6 +26,14 @@ export default function ChatRoom({}: Props) {
 						Express.js, MySql.
 					</p>
 				</div>
+				<div className="space-x-60">
+					<a href="https://jcwd230201.purwadhikabootcamp.com/">
+						<button className="heroButton text-2xl">Live</button>
+					</a>
+					<a href="https://github.com/veanusnathan/OnlineShopWarehouseProject">
+						<button className="heroButton text-2xl">Github</button>
+					</a>
+				</div>
 			</div>
 		</>
 	);

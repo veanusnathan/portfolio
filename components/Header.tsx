@@ -73,9 +73,12 @@ export default function Header({}: Props) {
 					fgColor="gray"
 					bgColor="transparent"
 				/>
-				<p className="uppercase hidden md:inline-flex text-sm text-gray-400">
-					get in touch
-				</p>
+				<a
+					href="https://drive.google.com/file/d/152lm80u6SzocyVcAI-i3lZQl9wbXfuvc/view?usp=sharing"
+					className="uppercase cursor-pointer text-sm border-2 border-gray-500 rounded-full px-2 hover:bg-gray-700 hidden md:inline-flex text-gray-400"
+				>
+					RESUME
+				</a>
 			</motion.div>
 		</header>
 	);

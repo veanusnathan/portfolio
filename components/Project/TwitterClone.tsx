@@ -23,8 +23,16 @@ export default function TwitterClone({}: Props) {
 					<p className="text-lg text-center md:text-left">
 						Making online groceries complete with integrated backend, with
 						precise timestamps, users, transactions, discounts and products
-						logging, and with social integrations with firebase.
+						logging.
 					</p>
+				</div>
+				<div className="space-x-60">
+					<a href="https://jcwd230202.purwadhikabootcamp.com/">
+						<button className="heroButton text-2xl">Live</button>
+					</a>
+					<a href="https://github.com/veanusnathan/OnliceGroceries">
+						<button className="heroButton text-2xl">Github</button>
+					</a>
 				</div>
 			</div>
 		</>

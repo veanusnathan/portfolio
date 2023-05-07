@@ -6,7 +6,12 @@ type Props = {};
 export default function HotelBus({}: Props) {
 	return (
 		<>
-			<div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+			<div
+				onClick={() =>
+					(window.location.href = "https://jcwd230203.purwadhikabootcamp.com/")
+				}
+				className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"
+			>
 				<motion.img
 					initial={{ y: -300, opacity: 0 }}
 					transition={{ duration: 1.2 }}
@@ -21,11 +26,17 @@ export default function HotelBus({}: Props) {
 						Project Hotel and Bus Service
 					</h4>
 					<p className="text-lg text-center md:text-left">
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
-						odio veritatis minus. Laborum fugiat distinctio magnam. Asperiores
-						enim laudantium illum corrupti officiis odit assumenda sunt! Omnis
-						adipisci recusandae autem voluptatum.
+						Make an online ticket and room booking web app using React.js,
+						Sequelize ORM, Express.JS, and MySql
 					</p>
+				</div>
+				<div className="space-x-60">
+					<a href="https://jcwd230203.purwadhikabootcamp.com/">
+						<button className="heroButton text-2xl">Live</button>
+					</a>
+					<a href="https://github.com/veanusnathan/BookingApp">
+						<button className="heroButton text-2xl">Github</button>
+					</a>
 				</div>
 			</div>
 		</>
