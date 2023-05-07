@@ -24,6 +24,14 @@ export default function StarbucksClone({}: Props) {
 						Express REST API, and Sequelize ORM as base tools.
 					</p>
 				</div>
+				<div className="space-x-60">
+					<a href="https://github.com/veanusnathan/starbucks_FE">
+						<button className="heroButton text-2xl">Github (FE)</button>
+					</a>
+					<a href="https://github.com/veanusnathan/starbucks_BE">
+						<button className="heroButton text-2xl">Github (BE)</button>
+					</a>
+				</div>
 			</div>
 		</>
 	);

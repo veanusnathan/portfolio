@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { PhoneIcon, MapIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { on } from "events";
 
 type Props = {};
 type Inputs = {
@@ -35,7 +34,7 @@ export default function ContactMe({}: Props) {
 				Contact
 			</h3>
 			<div className="flex flex-col space-y-5">
-				<h4 className="text-4xl font-semibold text-center">
+				<h4 className="text-xl lg:text-4xl font-semibold text-center">
 					I have got just what YOU need, Lets Talk.
 				</h4>
 				<div className="space-y-5">
@@ -55,18 +54,18 @@ export default function ContactMe({}: Props) {
 						onSubmit={handleSubmit(onSubmit)}
 						className="flex flex-col space-y-2 w-fit mx-auto"
 					>
-						<div className="space-x-2">
+						<div className="lg:space-x-2 space-y-2 w-full">
 							<input
 								{...register("name")}
 								placeholder="Name"
-								className="contactInput"
+								className="contactInput w-full lg:w-48"
 								type="text"
 							/>
 							<input
 								{...register("email")}
 								type="email"
 								placeholder="Email"
-								className="contactInput"
+								className="contactInput w-full lg:w-48"
 							/>
 						</div>
 						<input
