@@ -26,9 +26,9 @@ export default function Experience({}: Props) {
           Experience
         </h3>
         <div className=" w-full flex space-x-3 overflow-x-auto p-10 snap-x snap-mandatory">
-          <ExperienceCardERA />
-          <ExperienceCardPwd />
           <ExperienceCardIcx />
+          <ExperienceCardPwd />
+          <ExperienceCardERA />
         </div>
       </motion.div>
     </>
