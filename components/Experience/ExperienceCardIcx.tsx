@@ -4,6 +4,8 @@ import Image from "next/image";
 import vitePic from "../../public/vite.webp";
 import mikroOrmPic from "../../public/mikroorm.jpg";
 import nestjsPic from "../../public/nestjs.png";
+import gatsbyPic from "../../public/gatsby.png";
+import reactNativePic from "../../public/react-native.png";
 
 type Props = {};
 
@@ -18,8 +20,8 @@ export default function ExperienceCardIcx({}: Props) {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="w-28 h-28 rounded-full xl:[200] object-cover object-center"
-        src="/unnamed.jpg"
+        className="w-28 h-28 xl:[200] object-contain"
+        src="/icx-logo-black.png"
         alt="Company pic"
       />
 
@@ -43,6 +45,16 @@ export default function ExperienceCardIcx({}: Props) {
             className="h-10 w-10 rounded-full"
             src={nestjsPic}
             alt="NestJs"
+          />
+          <Image
+            className="h-10 w-10 rounded-full"
+            src={gatsbyPic}
+            alt="GatsbyJS"
+          />
+          <Image
+            className="h-10 w-10 rounded-full object-cover"
+            src={reactNativePic}
+            alt="react-native"
           />
         </div>
         <p className="my-4">June 2023 - Present</p>
