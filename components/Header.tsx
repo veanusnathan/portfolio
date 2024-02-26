@@ -78,7 +78,7 @@ export default function Header({}: Props) {
           bgColor="transparent"
         />
         <a
-          href="https://drive.google.com/file/d/1Qwc7C6aHnmx7Hq9gZ5WFbxaCxT7fs3Ql/view?usp=sharing"
+          href="https://drive.google.com/file/d/1bUar4ybUn6UqQW0Tt5wjgm9poLorrARa/view?usp=sharing"
           className="uppercase cursor-pointer text-sm border-2 border-gray-500 rounded-full px-2 hover:bg-gray-700 hidden md:inline-flex text-gray-400"
         >
           RESUME
